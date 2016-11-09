@@ -3,6 +3,14 @@ module ApplicationHelpers
     "https://github.com/thoughtbot/bourbon/blob/v#{version}/core/#{file_path}"
   end
 
+  def inline_css(*names)
+    names.map { |name|
+      name += ".css" unless name.include?(".css")
+      css_path = sitemap.resources.select { |p| p.source_file && p.source_file.include?(name) }.first
+      "<style>#{css_path.render}</style>"
+    }.reduce(:+)
+  end
+
   def markdown(contents)
     renderer = Redcarpet::Render::HTML
     markdown = Redcarpet::Markdown.new(
