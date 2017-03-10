@@ -5,7 +5,7 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 activate :syntax do |syntax|
-  syntax.css_class = "syntax-highlight"
+  syntax.css_class = "s-syntax-highlight"
 end
 
 set :css_dir, "assets/stylesheets"

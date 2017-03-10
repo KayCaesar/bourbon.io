@@ -1,0 +1,333 @@
+$_color-text-code-comment: $blue7;
+$_color-text-code-error: $red6;
+$_color-background-code-error: none;
+$_color-text-code-keyword: $gray9;
+$_color-text-code-operator: $gray7;
+$_color-text-code-comment-multiline: $blue7;
+$_color-text-code-comment-preproc: $gray9;
+$_color-text-code-comment-single: $blue7;
+$_color-text-code-comment-special: $gray9;
+$_color-text-code-generic-deleted: $gray9;
+$_color-background-code-generic-deleted: $red1;
+$_color-text-code-generic-emph: $gray9;
+$_color-text-code-generic-error: #a00;
+$_color-text-code-generic-heading: $gray9;
+$_color-text-code-generic-inserted: $gray9;
+$_color-background-code-generic-inserted: $green1;
+$_color-text-code-generic-output: $gray9;
+$_color-text-code-generic-prompt: #555;
+$_color-text-code-generic-subheading: $gray9;
+$_color-text-code-generic-traceback: #a00;
+$_color-text-code-keyword-constant: $gray9;
+$_color-text-code-keyword-declaration: $gray9;
+$_color-text-code-keyword-namespace: $gray9;
+$_color-text-code-keyword-pseudo: $gray9;
+$_color-text-code-keyword-reserved: $gray9;
+$_color-text-code-keyword-type: $orange6;
+$_color-text-code-literal-number: $cyan8;
+$_color-text-code-literal-string: $cyan8;
+$_color-text-code-name-attribute: $gray9;
+$_color-text-code-name-builtin: $cyan8;
+$_color-text-code-name-class: $gray9;
+$_color-text-code-name-constant: #008080;
+$_color-text-code-name-decorator: $orange6;
+$_color-text-code-name-entity: #800080;
+$_color-text-code-name-exception: #900;
+$_color-text-code-name-function: $orange6;
+$_color-text-code-name-label: $gray9;
+$_color-text-code-name-namespace: #555;
+$_color-text-code-name-tag: $gray9;
+$_color-text-code-name-variable: $orange6;
+$_color-text-code-operator-word: $gray7;
+$_color-text-code-text-whitespace: $gray9;
+$_color-text-code-literal-number-float: $cyan8;
+$_color-text-code-literal-number-hex: $cyan8;
+$_color-text-code-literal-number-integer: $cyan8;
+$_color-text-code-literal-number-oct: $cyan8;
+$_color-text-code-literal-string-backtick: $cyan8;
+$_color-text-code-literal-string-char: $cyan8;
+$_color-text-code-literal-string-doc: $cyan8;
+$_color-text-code-literal-string-double: $cyan8;
+$_color-text-code-literal-string-escape: $cyan8;
+$_color-text-code-literal-string-heredoc: $cyan8;
+$_color-text-code-literal-string-interpol: $gray9;
+$_color-text-code-literal-string-other: $cyan8;
+$_color-text-code-literal-string-regex: #009926;
+$_color-text-code-literal-string-single: $cyan8;
+$_color-text-code-literal-string-symbol: #990073;
+$_color-text-code-name-builtin-pseudo: $gray9;
+$_color-text-code-name-variable-class: #008080;
+$_color-text-code-name-variable-global: #008080;
+$_color-text-code-name-variable-instance: #008080;
+$_color-text-code-literal-number-integer-long: #099;
+$_color-text-code-parenthesis: $gray7;
+$_color-text-code-null: $gray7;
+
+.s-syntax-highlight {
+  .p {
+    color: $_color-text-code-parenthesis;
+  }
+
+  .n {
+    color: $_color-text-code-null;
+  }
+
+  .c {
+    color: $_color-text-code-comment;
+  }
+
+  .err {
+    background-color: $_color-background-code-error;
+    color: $_color-text-code-error;
+  }
+
+  .k {
+    color: $_color-text-code-keyword;
+    font-weight: $font-weight-bold;
+  }
+
+  .o {
+    color: $_color-text-code-operator;
+    font-weight: $font-weight-bold;
+  }
+
+  .cm {
+    color: $_color-text-code-comment-multiline;
+  }
+
+  .cp {
+    color: $_color-text-code-comment-preproc;
+    font-weight: $font-weight-bold;
+  }
+
+  .c1 {
+    color: $_color-text-code-comment-single;
+  }
+
+  .cs {
+    color: $_color-text-code-comment-special;
+    font-weight: $font-weight-bold;
+  }
+
+  .gd {
+    background-color: $_color-background-code-generic-deleted;
+    color: $_color-text-code-generic-deleted;
+  }
+
+  .ge {
+    color: $_color-text-code-generic-emph;
+  }
+
+  .gr {
+    color: $_color-text-code-generic-error;
+  }
+
+  .gh {
+    color: $_color-text-code-generic-heading;
+  }
+
+  .gi {
+    background-color: $_color-background-code-generic-inserted;
+    color: $_color-text-code-generic-inserted;
+  }
+
+  .go {
+    color: $_color-text-code-generic-output;
+  }
+
+  .gp {
+    color: $_color-text-code-generic-prompt;
+  }
+
+  .gs {
+    font-weight: $font-weight-bold;
+  }
+
+  .gu {
+    color: $_color-text-code-generic-subheading;
+  }
+
+  .gt {
+    color: $_color-text-code-generic-traceback;
+  }
+
+  .kc {
+    color: $_color-text-code-keyword-constant;
+    font-weight: $font-weight-bold;
+  }
+
+  .kd {
+    color: $_color-text-code-keyword-declaration;
+    font-weight: $font-weight-bold;
+  }
+
+  .kn {
+    color: $_color-text-code-keyword-namespace;
+    font-weight: $font-weight-bold;
+  }
+
+  .kp {
+    color: $_color-text-code-keyword-pseudo;
+    font-weight: $font-weight-bold;
+  }
+
+  .kr {
+    color: $_color-text-code-keyword-reserved;
+    font-weight: $font-weight-bold;
+  }
+
+  .kt {
+    color: $_color-text-code-keyword-type;
+    font-weight: $font-weight-bold;
+  }
+
+  .m {
+    color: $_color-text-code-literal-number;
+  }
+
+  .s {
+    color: $_color-text-code-literal-string;
+  }
+
+  .na {
+    color: $_color-text-code-name-attribute;
+  }
+
+  .nb {
+    color: $_color-text-code-name-builtin;
+  }
+
+  .nc {
+    color: $_color-text-code-name-class;
+    font-weight: $font-weight-bold;
+  }
+
+  .no {
+    color: $_color-text-code-name-constant;
+  }
+
+  .nd {
+    color: $_color-text-code-name-decorator;
+    font-weight: $font-weight-bold;
+  }
+
+  .ni {
+    color: $_color-text-code-name-entity;
+  }
+
+  .ne {
+    color: $_color-text-code-name-exception;
+    font-weight: $font-weight-bold;
+  }
+
+  .nf {
+    color: $_color-text-code-name-function;
+    font-weight: $font-weight-bold;
+  }
+
+  .nl {
+    color: $_color-text-code-name-label;
+    font-weight: $font-weight-bold;
+  }
+
+  .nn {
+    color: $_color-text-code-name-namespace;
+  }
+
+  .nt {
+    color: $_color-text-code-name-tag;
+  }
+
+  .nv {
+    color: $_color-text-code-name-variable;
+  }
+
+  .ow {
+    color: $_color-text-code-operator-word;
+    font-weight: $font-weight-bold;
+  }
+
+  .w {
+    color: $_color-text-code-text-whitespace;
+  }
+
+  .mf {
+    color: $_color-text-code-literal-number-float;
+  }
+
+  .mh {
+    color: $_color-text-code-literal-number-hex;
+  }
+
+  .mi {
+    color: $_color-text-code-literal-number-integer;
+  }
+
+  .mo {
+    color: $_color-text-code-literal-number-oct;
+  }
+
+  .sb {
+    color: $_color-text-code-literal-string-backtick;
+  }
+
+  .sc {
+    color: $_color-text-code-literal-string-char;
+  }
+
+  .sd {
+    color: $_color-text-code-literal-string-doc;
+  }
+
+  .s2 {
+    color: $_color-text-code-literal-string-double;
+  }
+
+  .se {
+    color: $_color-text-code-literal-string-escape;
+  }
+
+  .sh {
+    color: $_color-text-code-literal-string-heredoc;
+  }
+
+  .si {
+    color: $_color-text-code-literal-string-interpol;
+  }
+
+  .sx {
+    color: $_color-text-code-literal-string-other;
+  }
+
+  .sr {
+    color: $_color-text-code-literal-string-regex;
+  }
+
+  .s1 {
+    color: $_color-text-code-literal-string-single;
+  }
+
+  .ss {
+    color: $_color-text-code-literal-string-symbol;
+  }
+
+  .bp {
+    color: $_color-text-code-name-builtin-pseudo;
+  }
+
+  .vc {
+    color: $_color-text-code-name-variable-class;
+  }
+
+  .vg {
+    color: $_color-text-code-name-variable-global;
+  }
+
+  .vi {
+    color: $_color-text-code-name-variable-instance;
+  }
+
+  .il {
+    color: $_color-text-code-literal-number-integer-long;
+  }
+}
