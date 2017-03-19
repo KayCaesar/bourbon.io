@@ -83,12 +83,12 @@ $_color-text-code-null: $gray7;
 
   .k {
     color: $_color-text-code-keyword;
-    font-weight: $font-weight-bold;
+    // font-weight: $font-weight-bold;
   }
 
   .o {
     color: $_color-text-code-operator;
-    font-weight: $font-weight-bold;
+    // font-weight: $font-weight-bold;
   }
 
   .cm {
@@ -97,7 +97,7 @@ $_color-text-code-null: $gray7;
 
   .cp {
     color: $_color-text-code-comment-preproc;
-    font-weight: $font-weight-bold;
+    // font-weight: $font-weight-bold;
   }
 
   .c1 {
@@ -106,7 +106,7 @@ $_color-text-code-null: $gray7;
 
   .cs {
     color: $_color-text-code-comment-special;
-    font-weight: $font-weight-bold;
+    // font-weight: $font-weight-bold;
   }
 
   .gd {
@@ -140,7 +140,7 @@ $_color-text-code-null: $gray7;
   }
 
   .gs {
-    font-weight: $font-weight-bold;
+    // font-weight: $font-weight-bold;
   }
 
   .gu {
@@ -153,32 +153,32 @@ $_color-text-code-null: $gray7;
 
   .kc {
     color: $_color-text-code-keyword-constant;
-    font-weight: $font-weight-bold;
+    // font-weight: $font-weight-bold;
   }
 
   .kd {
     color: $_color-text-code-keyword-declaration;
-    font-weight: $font-weight-bold;
+    // font-weight: $font-weight-bold;
   }
 
   .kn {
     color: $_color-text-code-keyword-namespace;
-    font-weight: $font-weight-bold;
+    // font-weight: $font-weight-bold;
   }
 
   .kp {
     color: $_color-text-code-keyword-pseudo;
-    font-weight: $font-weight-bold;
+    // font-weight: $font-weight-bold;
   }
 
   .kr {
     color: $_color-text-code-keyword-reserved;
-    font-weight: $font-weight-bold;
+    // font-weight: $font-weight-bold;
   }
 
   .kt {
     color: $_color-text-code-keyword-type;
-    font-weight: $font-weight-bold;
+    // font-weight: $font-weight-bold;
   }
 
   .m {
@@ -199,7 +199,7 @@ $_color-text-code-null: $gray7;
 
   .nc {
     color: $_color-text-code-name-class;
-    font-weight: $font-weight-bold;
+    // font-weight: $font-weight-bold;
   }
 
   .no {
@@ -208,7 +208,7 @@ $_color-text-code-null: $gray7;
 
   .nd {
     color: $_color-text-code-name-decorator;
-    font-weight: $font-weight-bold;
+    // font-weight: $font-weight-bold;
   }
 
   .ni {
@@ -217,17 +217,17 @@ $_color-text-code-null: $gray7;
 
   .ne {
     color: $_color-text-code-name-exception;
-    font-weight: $font-weight-bold;
+    // font-weight: $font-weight-bold;
   }
 
   .nf {
     color: $_color-text-code-name-function;
-    font-weight: $font-weight-bold;
+    // font-weight: $font-weight-bold;
   }
 
   .nl {
     color: $_color-text-code-name-label;
-    font-weight: $font-weight-bold;
+    // font-weight: $font-weight-bold;
   }
 
   .nn {
@@ -244,7 +244,7 @@ $_color-text-code-null: $gray7;
 
   .ow {
     color: $_color-text-code-operator-word;
-    font-weight: $font-weight-bold;
+    // font-weight: $font-weight-bold;
   }
 
   .w {
